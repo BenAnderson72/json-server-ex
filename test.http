@@ -1,0 +1,28 @@
+@baseUrl=http://localhost:3000
+
+GET {{baseUrl}}/posts
+### 
+
+GET {{baseUrl}}/posts/1
+### 
+GET {{baseUrl}}/posts?views=100
+### 
+GET {{baseUrl}}/posts?title=title1
+### 
+
+GET {{baseUrl}}/comments
+### 
+
+GET {{baseUrl}}/profile
+
+### 
+
+GET {{baseUrl}}/users
+x-user-id:22
+
+###
+GET {{baseUrl}}/users?x-user-id=11
+
+
+
+

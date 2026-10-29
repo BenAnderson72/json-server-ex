@@ -1,0 +1,12 @@
+@baseUrl=http://localhost:3000/ents/v1
+
+GET {{baseUrl}}/users
+x-user-id:22
+
+###
+GET {{baseUrl}}/users?user-id=11
+x-user-id:11
+
+
+
+

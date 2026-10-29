@@ -1,0 +1,8 @@
+npx json-server db.json --middlewares middleware.js
+
+npm install json-server -g
+
+https://github.com/typicode/json-server/tree/v0.17.4#routes
+
+
+npx json-server db_ents.json --routes routes.json --middlewares middleware.js
